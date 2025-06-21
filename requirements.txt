@@ -1,0 +1,30 @@
+Appium-Python-Client==3.1.1
+pytest==8.4.1
+allure-pytest==2.14.3
+
+Install Homebrew (if not already installed)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
+Install required packages via Homebrew
+brew install node
+brew install watchman
+brew install android-platform-tools
+
+Install Android Studio (for emulator/device management)
+brew install --cask android-studio
+
+Open Android Studio once.
+
+Go to Preferences > Appearance & Behavior > System Settings > Android SDK.
+
+Install:
+Android SDK Tools
+Android Emulator-Name Test
+One or more SDK Platforms (API 34)
+
+Launch the Emulator
+
+
+
+
