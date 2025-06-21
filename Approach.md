@@ -26,7 +26,7 @@ The project was structured to follow industry-standard automation practices usin
 
 ## 📈 Possible Improvements
 
-- Add coverage for shopping cart and checkout flows
+- Add coverage for other flows
 - Integrate CI pipeline (GitHub Actions or Jenkins)
 - Add emulator start/stop to automation script
 - Enhance validation logic and data-driven testing
