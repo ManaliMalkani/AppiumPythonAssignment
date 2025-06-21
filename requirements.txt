@@ -1,9 +1,9 @@
-Appium-Python-Client==3.1.1
-pytest==8.4.1
-allure-pytest==2.14.3
-
 Install Homebrew (if not already installed)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+pip3 install Appium-Python-Client
+pip3 install pytest
+pip3 install allure-pytest
 
 
 Install required packages via Homebrew
