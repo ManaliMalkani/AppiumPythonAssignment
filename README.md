@@ -1,8 +1,8 @@
-# Appium UI Automation Framework – React Native Shopping App
+# Appium UI Automation Framework
 
 ## 📋 Overview
 
-This framework is built to automate end-to-end user flows on a React Native shopping app using **Python**, **Appium**, and **Pytest**. It supports structured reporting, screenshots on failure, and easy extensibility.
+This framework is built to automate end-to-end user flows on a Androidd Demo app using **Python**, **Appium**, and **Pytest**. It supports structured reporting, screenshots on failure, and easy extensibility.
 
 ---
 
@@ -36,7 +36,7 @@ AppiumPythonFramework/
 - ✅ Navigate to Contact Form
 - ✅ Enter data in Contact Form
 - ✅ Login screen invalid login
-- 🚧 (To be extended for Product Listing, Add to Cart, Checkout)
+- 🚧 Other Modules
 
 ---
 
@@ -45,8 +45,6 @@ AppiumPythonFramework/
 ### 1. 📦 Install Dependencies
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate  # or .venv\Scripts\activate on Windows
 
 pip install -r requirements.txt
 ```
@@ -70,14 +68,13 @@ pip install -r requirements.txt
 ### Run all tests:
 
 ```bash
-pytest -v -s tests/ --alluredir=reports/allureReports
+pytest -v -s tests/TestSuite.py --alluredir=../reports/allureReports
 ```
 
 ### View Allure Report:
 
 ```bash
-allure generate reports/allureReports -o reports/allureResults --clean
-allure open reports/allureResults
+allure serve ../reports/allureReports 
 ```
 
 ---
