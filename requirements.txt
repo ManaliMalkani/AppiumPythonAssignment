@@ -20,10 +20,11 @@ Go to Preferences > Appearance & Behavior > System Settings > Android SDK.
 
 Install:
 Android SDK Tools
-Android Emulator-Name Test
 One or more SDK Platforms (API 34)
-
+Create the Android Emulator-Name Test with API 34
 Launch the Emulator
+
+
 
 
 
